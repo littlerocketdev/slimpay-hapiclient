@@ -1,5 +1,5 @@
 {
-    "name": "slimpay/hapiclient-guzzle7",
+    "name": "littlerocket/hapiclient-guzzle7",
     "description": "An HTTP Client using HAL as the format for resources.",
     "keywords": ["http", "hal", "rest", "client", "HTTP client", "HAL client", "hapi", "hateoas"],
     "license": "MIT",
@@ -7,11 +7,15 @@
         {
             "name": "SlimPayDev",
             "email": "jgrandveau@slimpay.com"
+        },
+        {
+            "name": "Daan Gebraad",
+            "email": "daan@littlerocket.nl"
         }
     ],
     "require": {
         "php": "^7.2|^8.0",
-        "guzzlehttp/guzzle": "~7.0",
+        "guzzlehttp/guzzle": "^7.8",
         "guzzlehttp/uri-template": "0.2.0"
     },
 	"require-dev": {
